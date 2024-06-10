@@ -11,7 +11,7 @@ iface eth0 inet static
     gateway 192.168.50.2
 "
 DNSOPTS="1.1.1.1"
-TIMEZONEOPTS="-z UTC"
+TIMEZONEOPTS="-z Asia/Shanghai"
 PROXYOPTS="none"
 APKREPOSOPTS="http://dl-cdn.alpinelinux.org/alpine/latest-stable/main http://dl-cdn.alpinelinux.org/alpine/latest-stable/community"
 SSHDOPTS="-c openssh"
